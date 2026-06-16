@@ -34,8 +34,8 @@ class SmsMonitorService : Service() {
         const val CHANNEL_NAME = "短信监控服务"
         const val NOTIFICATION_ID = 1
 
-        const val ACTION_START = "com.oncewind.smsforwarder.ACTION_START"
-        const val ACTION_STOP = "com.oncewind.smsforwarder.ACTION_STOP"
+        const val ACTION_START = "com.oncewind.sms2Email.ACTION_START"
+        const val ACTION_STOP = "com.oncewind.sms2Email.ACTION_STOP"
     }
 
     private val serviceScope = CoroutineScope(Dispatchers.IO)
